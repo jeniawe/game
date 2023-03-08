@@ -1,0 +1,21 @@
+#game {
+  margin: 45px;
+  width: 500px;
+  height: 500px;
+  background: aqua;
+}
+#counter {
+  font-size: 45px;
+}
+#field {
+  font-size: 45px;
+}
+.block {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+}
