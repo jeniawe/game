@@ -8,7 +8,6 @@ let aim = 0;
 document.getElementById('game').onclick = function (event) {
   if (event.target.className === 'block' && event.target.innerHTML===' ') {
     event.target.innerHTML = 'X'
-    console.log(event.target)
     aroundX(Array.prototype.indexOf.call(allBlocks, event.target), "X","O")
     aim++
     count++
