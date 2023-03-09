@@ -14,7 +14,7 @@ document.getElementById('game').onclick = function (event) {
     count++
   }
   document.getElementById('field').innerHTML = "Ships is destroyed: "+aim;
-  if (aim===8) location.reload()
+  if (aim===7) location.reload()
   if (event.target.className === 'block' && event.target.innerHTML !=='X' &&(event.target.innerHTML !== 'O' || event.target.innerHTML === '  ')) {
     event.target.innerHTML = 'O'
     count++
